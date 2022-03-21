@@ -221,19 +221,3 @@ END
 GO
 
 EXECUTE ConsultaReprovadosPorNotaPROC 'REPROVADO POR NOTA'
-
-
-
-
-select * from Aluno
-select * from Disciplina
-select * from Matricula
-
-
-delete from Matricula
-delete from Disciplina
-delete from Aluno
-
-DROP TABLE Matricula
-DROP TABLE Disciplina
-DROP TABLE Aluno
